@@ -1,0 +1,26 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "json:server": "json-server --watch db.json",
+    "json:server:remote": "json-server http://jsonplaceholder.typicode.com/db",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.7.0",
+    "angular-aria": "^1.7.0",
+    "angular-ui-router": "^1.0.3",
+    "bootstrap": "^4.1.1",
+    "express": "^4.16.3",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1",
+    "json-server": "^0.12.2",
+    "ng-animate": "^0.3.1",
+    "nodemon": "^1.17.5"
+  }
+}

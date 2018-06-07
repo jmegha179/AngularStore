@@ -1,0 +1,88 @@
+<form  id="myForm">
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 col-sm-8 col-lg-8 offset-md-2 offset-lg-2 offset-sm-2">
+            <div id="heading">
+                <strong style="margin-left:20px">Angular Store</strong>
+            </div>
+            <div id="text2">
+                Thanks for Shopping of the angular Store.
+                <div>
+                    This is your Shopping cart here you can edit the items to the store clear the cart or checkout.
+                </div>
+            </div>
+            <div class="table-responsive table2">
+                <table class="table table table-bordered table table-hover">
+                    <tbody>
+                        <thead class="quantity">
+                            <th>Item</th>
+                            <th>Ouantity</th>
+                            <th>Price</th>
+                            <th></th>
+                        </thead>
+                        <tr>
+                            <td class="first3">Apple</td>
+                            <td class="second3" id="apple">{{counterApple}}</td>
+                            <td class="third3">{{applePrize}} Rs.</td>
+                            <td class="fourth3"></td>
+                        </tr>
+                        <tr>
+                            <td class="first3">Grapes</td>
+                            <td class="second3">{{counterGrape}}</td>
+                            <td class="third3">{{grapePrize}} Rs.</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td class="first3">GrapeFruit</td>
+                            <td class="second3">{{counterGrapeFruit}}</td>
+                            <td class="third3">{{grapeFruitPrize}} Rs.</td>
+                            <td class="fourth3"></td>
+                        </tr>
+                        <tr>
+                            <td class="first3">Papaya</td>
+                            <td class="second3">{{counterGrapeFruit}}</td>
+                            <td class="third3">{{grapeFruitPrize}} Rs.</td>
+                            <td class="fourth3"></td>
+                        </tr>
+                        <tr>
+                            <td class="first3">Pineapple</td>
+                            <td class="second3">{{counterPinapple}}</td>
+                            <td class="third3">{{pineapplePrize}} Rs.</td>
+                            <td class="fourth3"></td>
+                        </tr>
+                        <tr class="quantity">
+                            <td class="first3">
+                                <h5 class="total">Total</h5>
+                            </td>
+                            <td class="second3">
+                                <h5 class="total">{{totalQuantity}}</h5>
+                            </td>
+                            <td class="third3">
+                                <h5 class="total">{{totalPrize}} Rs.</h5>
+                            </td>
+                            <td class="fourth3"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="col-md-2 col-sm-2 col-lg-2" style="margin-top:140px">
+            <a href="http://localhost:9009/#!/">
+                <button type="button" class="btn btn-default btn-md btn2">
+                    < back to store</button>
+            </a>
+            <!-- <input type="reset" class="btn btn-danger btn-md btn2" onclick="myFunction()" value="clearCart">
+                <i class="fa fa-trash-o icon" ngclick="clearCart()"></i>clear cart</button> -->
+        <a href="https://www.paypal.com/webapps/mpp/merchant">
+                <button type="button" class="btn btn-warning btn-md btn4">
+                    <sup style="margin-right:-18px">checkOut</sup>
+                    <i class="fa fa-paypal"></i>PayPal</button>
+            </a>
+            <p id="sub">best way to buy with paypal</p>
+            <a href="https://developers.google.com/commerce/wallet/digital/training/getting-started/merchant-setup">
+                <button type="button" class="btn btn-info btn-md btn5">
+                    <i class="fa fa-google-wallet icon"></i>buy with Google</button>
+            </a>
+        </div>
+    </div>
+</div>

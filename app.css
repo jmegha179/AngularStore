@@ -1,0 +1,224 @@
+body {
+    background-image: url("../imagegs/background.jpg");
+}
+
+.navbar {
+    background: black;
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 45px;
+    font-style: serif;
+}
+
+ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 25px;
+    text-align: center;
+}
+
+ul a:hover {
+    background-color: #777;
+}
+
+.navbar-brand:hover {
+    background-color: #777;
+}
+
+ul#menu li {
+    display: inline;
+    padding-left: 20px;
+}
+
+.container {
+    margin-top: 60px;
+}
+
+#heading {
+    font-size: 45px;
+    Font-style: serif;
+    font: bolder;
+    background-color: #D7DBDD;
+}
+
+#text {
+    color: #088F9E;
+    margin-top: 10px;
+}
+
+#text2 {
+    color: #088F9E;
+    margin-top: 20px;
+}
+
+.frm {
+    margin-top: 10px;
+}
+
+#search {
+    height: 25px;
+    margin-left: 5px;
+}
+
+.prize {
+    background: #E5E7E9;
+    height: 27px;
+    color: #077380
+}
+
+.prize2 {
+    background: #D0D3D4;
+    height: 27px;
+    color: #077380
+}
+
+.first {
+    width:10px;
+}
+
+.second {
+    width: 300px;
+}
+
+.fourth {
+    width: 140px;
+    font-size: 15px;
+    color: #077380;
+}
+
+.second2 {
+    width: 140px;
+}
+
+.first2 {
+    width: 90px;
+}
+
+.third {
+    width: 90px;
+}
+
+.table2 {
+    margin-top: 10px;
+}
+
+.btn {
+    height: 30px;
+    width: 180px;
+    text-align: center;
+}
+
+.btn2 {
+    margin-top: 4px;
+}
+
+.first3 {
+    width: 80px;
+    color: #077380;
+    font-style: serif;
+
+}
+
+.quantity {
+    background: #E5E7E9;
+  
+}
+
+.btn3 {
+    margin-top: 45px;
+}
+
+.btn4 {
+    margin-top: 45px;
+    color: #2E86C1;
+    font-size: 25px;
+    height: 40px;
+    border-radius: 20px;
+    font: bolder;
+    
+}
+
+.btn5 {
+    border-radius: 15px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+.img1 {
+    height: 45px;
+    width: 45px;
+    background-color: #D7DBDD;
+}
+
+.icon {
+    color: white;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+#sub {
+    margin-left: 10px;
+    font-size: 11px;
+    color: #2E86C1;
+}
+
+.fruit_image {
+    height: 30px;
+    width: 40px;
+}
+
+.name {
+    color: #077380;
+    font-style: serif;
+    font-size: 20px;
+    font: bolder;
+}
+
+.link {
+    color: #077380;
+    text-decoration: none;
+}
+
+.dot{
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    margin-right: -4px;
+    display: inline-block;
+}
+.cart{
+    background: #E5E7E9;
+   font-size : 20px;
+   color: #077380;
+   font-style: serif;
+}
+.total{
+    color:#000;
+    font-style:serif ;
+}
+.fifth{
+    width:2px;
+}
+.ng-enter{
+    transition:0.75s;
+    opacity:0; 
+}
+.ng-enter-stagger{
+    transition-delay: 0.1s;
+}
+.ng-enter-active{
+    opacity: 1;
+}
+.ng-leave-stagger{
+    transition-delay: 0.1s;
+}
+.ng-leave{
+    transition:0.75s;
+    opacity: 1; 
+}
+.ng-leave-active{
+    opacity: 0;
+}

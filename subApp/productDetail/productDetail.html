@@ -1,0 +1,41 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 col-sm-8 col-lg-8 offset-md-2 offset-lg-2 offset-sm-2">
+            <div id="heading">
+                <strong style="margin-left:20px">Angular Store</strong>
+            </div>
+            <div id="text2">
+                <img class="img-responsive fruit_image" src="{{name[index].image}}" />{{name[index].fruit_name}} : {{name[index].information}}
+            </div>
+            <div class="table-responsive table2">
+                <table class="table table table-bordered table table-hover">
+                    <tbody>
+                        <tr>
+                            <td class="first2">Calories</td>
+                            <td class="second2">{{product[index].cal}}</td>
+                            <td class="third2"></td>
+                        </tr>
+                        <tr ng-repeat="y in product">
+                            <td class="first2">{{y.heding}}</td>
+                            <td class="second2">
+                                <div style="text-align:center">
+                                    <span class="dot"></span>
+                                    <span class="dot"></span>
+                                    <span class="dot"></span>
+                                    <span class="dot"></span>
+                                </div>
+                            </td>
+                            <td class="third2">{{y.rating[index]}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="col-md-2 col-sm-2 col-lg-2" style="margin-top:126px">
+            <a href="http://localhost:9009/#!/">
+                <button type="button" class="btn btn-default btn-md btn2">
+                    < back to store</button>
+            </a>
+        </div>
+    </div>
+</div>

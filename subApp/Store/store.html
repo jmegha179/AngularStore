@@ -1,0 +1,78 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 col-sm-8 col-lg-8 offset-md-1 offset-lg-1 offset-sm-1">
+            <div id="heading">
+                <strong style="margin-left:20px">Angular Store</strong>
+            </div>
+            <div id="text">
+                Welcome to Angular Store
+                <div>
+                    Please select the products you want and add them to your shopping cart when you are done , click shopping cart icon to review
+                    your order and check it out.
+                </div>
+            </div>
+            <div>
+                <div class="form-group form-inline frm">
+                    <label for="search">Search:</label>
+                    <input type="text" class="form-control" id="search" placeholder="search item" ng-model="search">
+                </div>
+            </div>
+            <div class="table-responsive">
+                <table class="table table table-bordered table table-hover">
+                    <tbody>
+                        <tr class="prize">
+                            <td class="first"></td>
+                            <td class="second"></td>
+                            <td class="third"></td>
+                            <td class="fourth">
+                                <i class="fa fa-shopping-cart" style="color:black;font-size:20px;margin-right:5px"></i>{{qty}} items {{totalAmount}}Rs</td>
+                            <td class="fifth"></td>
+                        </tr>
+                        <tr ng-repeat="x in item | filter:search" >
+                            <td class="first">
+                                <img class="img-responsive  fruit_image" src="{{x.image}}" />
+                            </td>
+                            <td class="second">
+                                <div class="name">
+                                    {{x.fruit_name}} <i class="fa fa-info-circle" aria-hidden="true"  ng-click="Details($index)"></i>
+                                </div>
+                                <div>{{x.information}}</div>
+                            </td>
+                            <td class="third">{{x.prize}}</td>
+                            <td class="fourth">
+                                <a href="#" class="link" ng-click="addItemToCart(x , 1)" tabindex="0">add to cart</a>
+                            </td>
+                            <td class="fifth">
+                                <button ng-click="removeFruit(x.id , x.prize)" tabindex="0">
+                                    <i class="fa fa-remove" style="font-size:18px"></i>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr class="prize2">
+                            <td class="first"></td>
+                            <td class="second"></td>
+                            <td class="third"></td>
+                            <td class="fourth">
+                                <i class="fa fa-shopping-cart" style="color:black;font-size:20px;margin-right:5px"></i>{{qty}} items {{totalAmount}}Rs</td>
+                            <td class="fifth"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-3 col-lg-3" ng-if="cartDetails">
+            <div class="card text-center" style="width: 22rem;">
+                <div class="card-header success-color white-text cart">
+                    <img class="img-responsive fruit_image" src="{{photo}}" /> {{itemName}} is Add to cart
+                </div>
+                <div class="card-body">
+                    <h4 class="card-title">Total Quantity : {{totalQuantity}}</h4>
+                    <h4 class="card-text">Total Prize :{{totalPrize}}</h4>
+                </div>
+                <div class="card-footer text-muted success-color white-text ">
+                    <h4 class="mb-0 ">Thanku for shopping</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

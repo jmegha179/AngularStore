@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Bootstrap Shop Cart</title>
+  <script type="text/javascript" src="node_modules\jquery\dist\jquery.js"></script>
+  <script type="text/javascript" src="node_modules\angular\angular.min.js"></script>
+  <script type="text/javascript" src="node_modules\bootstrap\dist\js\bootstrap.min.js"></script>
+  <link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.min.css">
+  <link rel="stylesheet" href="node_modules\font-awesome\css\font-awesome.min.css">
+  <script type="text/javascript" src="node_modules\angular-ui-router\release\angular-ui-router.min.js"></script>
+  <script type="text/javascript" src="node_modules\angular-aria\angular-aria.js"></script>
+  <script type="text/javascript" src="app.js"></script>
+  <script type="text/javascript" src="Common\menuDirective.js"></script>
+  <script type="text/javascript" src="Common\services.js"></script>
+  <script type="text/javascript" src="Common\modules.js"></script>
+  <script type="text/javascript" src="subApp\Store\Store.ctrl.js"></script>
+  <script type="text/javascript" src="subApp\productDetail\ProductDetail.Crtl.js"></script>
+  <script type="text/javascript" src="subApp\Checkout\Checkout.ctrl.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-animate.js"></script>
+  <link rel="stylesheet" href="app.css">
+ </head>
+<body ng-app="myApp">
+  <div menu-directive></div>
+  <div class="container">
+    <div ui-view=""></div>
+  </div>
+</body>
+</html>

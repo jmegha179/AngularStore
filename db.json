@@ -1,0 +1,96 @@
+{
+  "fruit": [
+    {
+      "id": 1,
+      "image": "../imagegs/apple.jpeg",
+      "fruit_name": "Apple",
+      "information": "Every day eat apple and become healty ",
+      "prize": "100 Rs"
+    },
+    {
+      "id": 2,
+      "image": "../imagegs/graps.jpg",
+      "fruit_name": "Grape",
+      "information": "Wine are great but grapes are even better ",
+      "prize": "80 Rs"
+    },
+    {
+      "id": 3,
+      "image": "../imagegs/grape fruit.jpg",
+      "fruit_name": "Grapefruit",
+      "information": " pink and red always healthy and relicious",
+      "prize": "80 Rs"
+    },
+    {
+      "id": 4,
+      "image": "../imagegs/papaya.jpg",
+      "fruit_name": "Papaya",
+      "information": "Super popular for brakfast",
+      "prize": "60 Rs"
+    },
+    {
+      "id": 5,
+      "image": "../imagegs/pinaple.jpg",
+      "fruit_name": "Pineapple",
+      "information": "Enjoy it (but dont forget to peel first)",
+      "prize": "50 Rs"
+    }
+  ],
+  "product_details": [
+    {
+      "heding": "Carotenoid",
+      "cal": 90,
+      "rating": [
+        "Negligable",
+        "Average",
+        "Negligable",
+        "low",
+        "Average"
+      ]
+    },
+    {
+      "heding": "Fiber",
+      "cal": 86,
+      "rating": [
+        "Average",
+        "low",
+        "Negligable",
+        "Average",
+        "Average"
+      ]
+    },
+    {
+      "heding": "Folates",
+      "cal": 69,
+      "rating": [
+        "low",
+        "Average",
+        "Negligable",
+        "Negligable",
+        "Negligable"
+      ]
+    },
+    {
+      "heding": "Potassium",
+      "cal": 89,
+      "rating": [
+        "Negligable",
+        "Average",
+        "low",
+        "low",
+        "Average"
+      ]
+    },
+    {
+      "heding": "Vitamin C",
+      "cal": 60,
+      "rating": [
+        "low",
+        "Average",
+        "Negligable",
+        "Average",
+        "Negligable"
+      ]
+    }
+  ]
+}
